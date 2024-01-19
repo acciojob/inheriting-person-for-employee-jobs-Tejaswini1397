@@ -11,7 +11,7 @@ function Person(name, age) {
 
 
 function Employee(name, age, jobTitle) {
-Person.call(this,naem,age);
+Person.call(this,name,age);
 	this.jobTitle=jobTitle;
 	
 }
